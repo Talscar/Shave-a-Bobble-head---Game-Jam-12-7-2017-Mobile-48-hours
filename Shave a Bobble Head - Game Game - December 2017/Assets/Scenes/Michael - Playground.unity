@@ -120,8 +120,8 @@ GameObject:
   - component: {fileID: 37365133}
   - component: {fileID: 37365132}
   m_Layer: 0
-  m_Name: Cube (9)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -202,8 +202,8 @@ GameObject:
   - component: {fileID: 136421903}
   - component: {fileID: 136421902}
   m_Layer: 0
-  m_Name: Cube (22)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -284,8 +284,8 @@ GameObject:
   - component: {fileID: 314525456}
   - component: {fileID: 314525455}
   m_Layer: 0
-  m_Name: Cube (28)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,8 +366,8 @@ GameObject:
   - component: {fileID: 331626601}
   - component: {fileID: 331626600}
   m_Layer: 0
-  m_Name: Cube (5)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,8 +448,8 @@ GameObject:
   - component: {fileID: 347999222}
   - component: {fileID: 347999221}
   m_Layer: 0
-  m_Name: Cube (24)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -530,8 +530,8 @@ GameObject:
   - component: {fileID: 422664229}
   - component: {fileID: 422664228}
   m_Layer: 0
-  m_Name: Cube (19)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -612,8 +612,8 @@ GameObject:
   - component: {fileID: 470132941}
   - component: {fileID: 470132940}
   m_Layer: 0
-  m_Name: Cube (18)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -694,8 +694,8 @@ GameObject:
   - component: {fileID: 493226350}
   - component: {fileID: 493226349}
   m_Layer: 0
-  m_Name: Cube (20)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -776,8 +776,8 @@ GameObject:
   - component: {fileID: 532105507}
   - component: {fileID: 532105506}
   m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -858,8 +858,8 @@ GameObject:
   - component: {fileID: 545011147}
   - component: {fileID: 545011146}
   m_Layer: 0
-  m_Name: Cube (36)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,8 +940,8 @@ GameObject:
   - component: {fileID: 602661705}
   - component: {fileID: 602661704}
   m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1022,8 +1022,8 @@ GameObject:
   - component: {fileID: 638251822}
   - component: {fileID: 638251821}
   m_Layer: 0
-  m_Name: Cube (27)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1104,8 +1104,8 @@ GameObject:
   - component: {fileID: 644611140}
   - component: {fileID: 644611139}
   m_Layer: 0
-  m_Name: Cube (13)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1186,8 +1186,8 @@ GameObject:
   - component: {fileID: 672580275}
   - component: {fileID: 672580274}
   m_Layer: 0
-  m_Name: Cube (11)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1268,8 +1268,8 @@ GameObject:
   - component: {fileID: 696507238}
   - component: {fileID: 696507237}
   m_Layer: 0
-  m_Name: Cube (41)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1350,8 +1350,8 @@ GameObject:
   - component: {fileID: 755123185}
   - component: {fileID: 755123184}
   m_Layer: 0
-  m_Name: Cube (2)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1432,8 +1432,8 @@ GameObject:
   - component: {fileID: 928118953}
   - component: {fileID: 928118952}
   m_Layer: 0
-  m_Name: Cube (33)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1514,8 +1514,8 @@ GameObject:
   - component: {fileID: 971814532}
   - component: {fileID: 971814531}
   m_Layer: 0
-  m_Name: Cube (39)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1596,8 +1596,8 @@ GameObject:
   - component: {fileID: 1055551311}
   - component: {fileID: 1055551310}
   m_Layer: 0
-  m_Name: Cube (26)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1678,8 +1678,8 @@ GameObject:
   - component: {fileID: 1078387780}
   - component: {fileID: 1078387779}
   m_Layer: 0
-  m_Name: Cube (15)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1760,8 +1760,8 @@ GameObject:
   - component: {fileID: 1082213260}
   - component: {fileID: 1082213259}
   m_Layer: 0
-  m_Name: Cube (6)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1842,8 +1842,8 @@ GameObject:
   - component: {fileID: 1279566322}
   - component: {fileID: 1279566321}
   m_Layer: 0
-  m_Name: Cube (42)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1924,8 +1924,8 @@ GameObject:
   - component: {fileID: 1282281932}
   - component: {fileID: 1282281931}
   m_Layer: 0
-  m_Name: Cube (4)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2006,8 +2006,8 @@ GameObject:
   - component: {fileID: 1287591897}
   - component: {fileID: 1287591896}
   m_Layer: 0
-  m_Name: Cube (31)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2088,8 +2088,8 @@ GameObject:
   - component: {fileID: 1325060169}
   - component: {fileID: 1325060168}
   m_Layer: 0
-  m_Name: Cube (30)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2170,8 +2170,8 @@ GameObject:
   - component: {fileID: 1347298189}
   - component: {fileID: 1347298188}
   m_Layer: 0
-  m_Name: Cube (38)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2252,8 +2252,8 @@ GameObject:
   - component: {fileID: 1394955858}
   - component: {fileID: 1394955857}
   m_Layer: 0
-  m_Name: Cube (16)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2334,6 +2334,7 @@ GameObject:
   - component: {fileID: 1436099793}
   - component: {fileID: 1436099792}
   - component: {fileID: 1436099791}
+  - component: {fileID: 1436099796}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2411,6 +2412,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1436099796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436099790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4fe018aa0f1caf42894673e83bf8225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1569454478
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,8 +2435,8 @@ GameObject:
   - component: {fileID: 1569454481}
   - component: {fileID: 1569454480}
   m_Layer: 0
-  m_Name: Cube (34)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2505,8 +2517,8 @@ GameObject:
   - component: {fileID: 1602572784}
   - component: {fileID: 1602572783}
   m_Layer: 0
-  m_Name: Cube (12)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2587,8 +2599,8 @@ GameObject:
   - component: {fileID: 1700536807}
   - component: {fileID: 1700536806}
   m_Layer: 0
-  m_Name: Cube (23)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2669,8 +2681,8 @@ GameObject:
   - component: {fileID: 1733675401}
   - component: {fileID: 1733675400}
   m_Layer: 0
-  m_Name: Cube (3)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2751,8 +2763,8 @@ GameObject:
   - component: {fileID: 1738646054}
   - component: {fileID: 1738646053}
   m_Layer: 0
-  m_Name: Cube (37)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2833,8 +2845,8 @@ GameObject:
   - component: {fileID: 1767393558}
   - component: {fileID: 1767393557}
   m_Layer: 0
-  m_Name: Cube (7)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2994,7 +3006,7 @@ GameObject:
   - component: {fileID: 1845782133}
   - component: {fileID: 1845782132}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3119,8 +3131,8 @@ GameObject:
   - component: {fileID: 1899251582}
   - component: {fileID: 1899251581}
   m_Layer: 0
-  m_Name: Cube (14)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3201,8 +3213,8 @@ GameObject:
   - component: {fileID: 1956016545}
   - component: {fileID: 1956016544}
   m_Layer: 0
-  m_Name: Cube (40)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3283,8 +3295,8 @@ GameObject:
   - component: {fileID: 1992448500}
   - component: {fileID: 1992448499}
   m_Layer: 0
-  m_Name: Cube (32)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3365,8 +3377,8 @@ GameObject:
   - component: {fileID: 1993770490}
   - component: {fileID: 1993770489}
   m_Layer: 0
-  m_Name: Cube (29)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3447,8 +3459,8 @@ GameObject:
   - component: {fileID: 2009400860}
   - component: {fileID: 2009400859}
   m_Layer: 0
-  m_Name: Cube (8)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3529,8 +3541,8 @@ GameObject:
   - component: {fileID: 2044949562}
   - component: {fileID: 2044949561}
   m_Layer: 0
-  m_Name: Cube (21)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3611,8 +3623,8 @@ GameObject:
   - component: {fileID: 2068469593}
   - component: {fileID: 2068469592}
   m_Layer: 0
-  m_Name: Cube (10)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3693,8 +3705,8 @@ GameObject:
   - component: {fileID: 2085731422}
   - component: {fileID: 2085731421}
   m_Layer: 0
-  m_Name: Cube (25)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3775,8 +3787,8 @@ GameObject:
   - component: {fileID: 2088290299}
   - component: {fileID: 2088290298}
   m_Layer: 0
-  m_Name: Cube (35)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3857,8 +3869,8 @@ GameObject:
   - component: {fileID: 2116363700}
   - component: {fileID: 2116363699}
   m_Layer: 0
-  m_Name: Cube (17)
-  m_TagString: Untagged
+  m_Name: Facial hair
+  m_TagString: facialHair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
