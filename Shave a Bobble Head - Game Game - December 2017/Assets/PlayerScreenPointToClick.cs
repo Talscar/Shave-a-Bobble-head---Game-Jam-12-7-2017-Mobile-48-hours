@@ -58,13 +58,10 @@ public class PlayerScreenPointToClick : MonoBehaviour {
 
     // Update is called once per frame
     //int ray_Tuning = 9;
+    [Header("Brush Variables")]
     public float MobileTuning = 0.1f;
     public float DesktopTuning = 0.05f;
     public bool isMobile;
-<<<<<<< HEAD
-
-    float ray_Offset = 0.05f;
-=======
     float ray_Offset = 0.05f;
 
     [Header("Physics Variables (Impact location of brush)")]
@@ -76,7 +73,6 @@ public class PlayerScreenPointToClick : MonoBehaviour {
 
     Vector3 mousePos;
     Vector3 mouseEnd;
->>>>>>> cd9836b1b392fffeb3e9519145a5c464e00ab7e5
     //Vector3[] ray_FireLocations;
     void Update () {
         //Ray ray = cam.ScreenPointToRay(new Vector3(200, 200, 0));
@@ -112,8 +108,6 @@ public class PlayerScreenPointToClick : MonoBehaviour {
                         //GameObject destroy = hit.collider.gameObject;
                         //Destroy(destroy);
                     }
-<<<<<<< HEAD
-=======
                 if (hit.collider.gameObject.tag == "face")
                 {
                     if(hit.collider.gameObject.GetComponent("Rigidbody") != null)
@@ -125,7 +119,6 @@ public class PlayerScreenPointToClick : MonoBehaviour {
                     }
                 }
 
->>>>>>> cd9836b1b392fffeb3e9519145a5c464e00ab7e5
                 //}
             }
                 //Instantiate(particle, transform.position, transform.rotation);
