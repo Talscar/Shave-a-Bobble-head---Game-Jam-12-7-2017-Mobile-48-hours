@@ -6261,7 +6261,6 @@ GameObject:
   - component: {fileID: 1436099792}
   - component: {fileID: 1436099791}
   - component: {fileID: 1436099796}
-  - component: {fileID: 1436099797}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6359,23 +6358,9 @@ MonoBehaviour:
     facesDone: 0
     facesSkipped: 0
   cam: {fileID: 0}
---- !u!143 &1436099797
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1436099790}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  MobileTuning: 0.1
+  DesktopTuning: 0.05
+  isMobile: 1
 --- !u!1 &1569454478
 GameObject:
   m_ObjectHideFlags: 0

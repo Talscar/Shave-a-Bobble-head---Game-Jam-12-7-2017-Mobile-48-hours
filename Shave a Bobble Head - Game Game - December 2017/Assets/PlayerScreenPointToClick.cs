@@ -37,6 +37,10 @@ public class PlayerScreenPointToClick : MonoBehaviour {
     {
         cam = GetComponent<Camera>();
 
+        if (isMobile)
+            ray_Offset = MobileTuning;
+        else
+            ray_Offset = DesktopTuning;
         //Setup a Ray vector location to generate ray from based on origin and not origin locations and radius locations.
         ////ray_FireLocations = new Vector3[ray_Tuning];
         ////Vector3 radiusOffset;
@@ -51,6 +55,10 @@ public class PlayerScreenPointToClick : MonoBehaviour {
 
     // Update is called once per frame
     //int ray_Tuning = 9;
+    public float MobileTuning = 0.1f;
+    public float DesktopTuning = 0.05f;
+    public bool isMobile;
+
     float ray_Offset = 0.05f;
     //Vector3[] ray_FireLocations;
     void Update () {

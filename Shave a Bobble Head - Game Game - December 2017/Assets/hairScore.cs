@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class hairScore : MonoBehaviour {
-    GameObject capsuleCasting_Brush;
+
 
     public int hairCutValue;
     public bool dontCutThis = false;
