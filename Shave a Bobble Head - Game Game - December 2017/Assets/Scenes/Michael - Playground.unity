@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &136421900
@@ -300,8 +301,92 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
+--- !u!1 &235092733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 235092737}
+  - component: {fileID: 235092736}
+  - component: {fileID: 235092735}
+  - component: {fileID: 235092734}
+  m_Layer: 0
+  m_Name: Capsule_Caster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &235092734
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 235092733}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &235092735
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 235092733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &235092736
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 235092733}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &235092737
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 235092733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &314525453
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &331626598
@@ -494,6 +580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &347999219
@@ -591,6 +678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &422664226
@@ -688,6 +776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &470132938
@@ -785,6 +874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &493226347
@@ -882,6 +972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &532105504
@@ -979,6 +1070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &545011144
@@ -1076,6 +1168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &602661702
@@ -1173,6 +1266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &638251819
@@ -1270,6 +1364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &644611137
@@ -1367,6 +1462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &672580272
@@ -1464,6 +1560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &696507235
@@ -1561,6 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &755123182
@@ -1658,6 +1756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &786085446
@@ -1788,7 +1887,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1781721834
+  randomSeed: -566280074
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5069,7 +5168,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928118950
 GameObject:
@@ -5166,6 +5265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &971814529
@@ -5263,6 +5363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1055551308
@@ -5360,6 +5461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1078387777
@@ -5457,6 +5559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1082213257
@@ -5554,6 +5657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1279566319
@@ -5651,6 +5755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1282281929
@@ -5748,6 +5853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1287591894
@@ -5845,6 +5951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1325060166
@@ -5942,6 +6049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1347298186
@@ -6039,6 +6147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1394955855
@@ -6136,6 +6245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1436099790
@@ -6151,6 +6261,7 @@ GameObject:
   - component: {fileID: 1436099792}
   - component: {fileID: 1436099791}
   - component: {fileID: 1436099796}
+  - component: {fileID: 1436099797}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6226,7 +6337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1436099796
 MonoBehaviour:
@@ -6248,6 +6359,23 @@ MonoBehaviour:
     facesDone: 0
     facesSkipped: 0
   cam: {fileID: 0}
+--- !u!143 &1436099797
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436099790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1569454478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6343,6 +6471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1602572781
@@ -6440,6 +6569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1700536804
@@ -6537,6 +6667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1733675398
@@ -6634,6 +6765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1738646051
@@ -6731,6 +6863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1767393555
@@ -6828,6 +6961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1790641988
@@ -6907,7 +7041,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1845782131
 GameObject:
@@ -7033,7 +7167,7 @@ Transform:
   - {fileID: 696507236}
   - {fileID: 1279566320}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1845782136
 MonoBehaviour:
@@ -7141,6 +7275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1956016542
@@ -7238,6 +7373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1992448497
@@ -7335,6 +7471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &1993770487
@@ -7432,6 +7569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &2009400857
@@ -7529,6 +7667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &2044949559
@@ -7626,6 +7765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &2068469590
@@ -7723,6 +7863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &2085731419
@@ -7820,6 +7961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &2088290296
@@ -7917,6 +8059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
 --- !u!1 &2116363697
@@ -8014,5 +8157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairCutValue: 5
+  dontCutThis: 0
   ParticleEmmiter: {fileID: 786085446}
   ParticleEmmiter_LifeTime: 0
