@@ -99,8 +99,8 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
--define:UNITY_PRO_LICENSE
 Assets/BobbleHeadStatistics.cs
+Assets/hairScore.cs
 Assets/PlayerScreenPointToClick.cs
 -r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity2017\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
