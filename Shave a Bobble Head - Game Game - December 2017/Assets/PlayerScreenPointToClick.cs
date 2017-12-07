@@ -28,6 +28,9 @@ public class PlayerScreenPointToClick : MonoBehaviour {
      * If it hits hair knock it off and send a message
      * If it hits the face stop the ray, hit it with the force of speed and direction and bopple the head in a direction
      * 
+     *
+     * Get swipe speed from basics of <speed = distance / timedifference;>
+     *
      */
 
     public Camera cam;
@@ -65,12 +68,27 @@ public class PlayerScreenPointToClick : MonoBehaviour {
     public float constantForce = 0.5f;
     public float maximumForce = 15f;
     [SerializeField] private float playerSwipeSpeed;
+    public float speedDensity_Mouse = 100f;
 
 
+    Vector3 mousePos;
+    Vector3 mouseEnd;
     //Vector3[] ray_FireLocations;
     void Update () {
         //Ray ray = cam.ScreenPointToRay(new Vector3(200, 200, 0));
         //Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+        //if(tim)
+        mousePos = Input.mousePosition;
+        //if(mouseEnd != mousePos)
+        //{
+        Vector3 dir = mousePos - mouseEnd;
+ 
+            float distance_Mouse = Vector3.Distance(mousePos, mouseEnd);
+            playerSwipeSpeed = (distance_Mouse / Time.deltaTime) / speedDensity_Mouse;
+            mouseEnd = mousePos;
+        Vector3 hitForce = dir * playerSwipeSpeed;
+        //}
+
 
         if (Input.GetButton("Fire1"))
         {
@@ -95,6 +113,9 @@ public class PlayerScreenPointToClick : MonoBehaviour {
                     if(hit.collider.gameObject.GetComponent("Rigidbody") != null)
                     {
                         Rigidbody rb_2 = hit.collider.gameObject.GetComponent<Rigidbody>();
+                        //hit.point.r
+                        //Add force at hitPoint
+                        rb_2.AddForceAtPosition(hitForce, hit.point);
                     }
                 }
 
