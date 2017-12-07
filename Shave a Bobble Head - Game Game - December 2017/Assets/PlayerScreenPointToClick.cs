@@ -4,6 +4,23 @@ using UnityEngine;
 
 public class PlayerScreenPointToClick : MonoBehaviour {
 
+    /// <summary>
+    /// Score keeping will gather the score for storing variables of the name, the time if on a time run. Points based on difficulty of the facial hairs to cut.
+    /// Hairs cut to say how many you did successfully. Unsuccessful_hairsCut to score how many you failed to cut. facesDone to count faces completed or attempted!
+    /// facesSkipped to count the faces you did not do.
+    /// </summary>
+    [System.Serializable]
+    public struct scoreKeeping
+    {
+        [SerializeField] public string player_Name;
+        [SerializeField] public int time;
+        [SerializeField] public int points;
+        [SerializeField] public int Successful_hairsCut;
+        [SerializeField] public int Unsuccessful_hairsCut;
+        [SerializeField] public int facesDone;
+        [SerializeField] public int facesSkipped;
+    }
+    [SerializeField] public scoreKeeping myScore;
     /* Keep score of hairs cut and get value from the head
      * 
      * 
